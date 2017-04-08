@@ -1,1 +1,159 @@
 *{margin: 0; padding: 0;} 
+*{margin: 0; padding: 0;}
+html,body {
+	overflow-x: hidden;
+}
+.btn-link {
+	color: #F2D5D1;
+}
+.btn-link:hover {
+	color: white;
+}
+
+.top {
+	background: url(images/header.jpg);
+	background-size:cover; 
+	height: 700px;
+} 
+.menutren {
+	background: transparent;
+}
+a.logo {
+	font-family: 'roboto slab'.serif;
+	font-size: 22px;
+	background-color: #ec6952;
+	padding: 18px 30px;
+    position: relative;
+    top: -8px;
+    border-bottom-left-radius: 5px;
+     border-bottom-right-radius: 5px;
+     font-weight: 700;
+
+}
+
+.top .menuphai a.nav-link {
+	text-transform: uppercase;
+	padding: 30px 15px;
+	font-family: 'roboto slab'.serif;
+	font-size: 12px;
+	color: white;
+	transition:0.4s;
+	font-weight: bold;
+
+}
+.top .menuphai a.nav-link:hover {
+	color: #ec6952;
+}
+.top .menuphai li.active a.nav-link {
+	color: #ec6952;
+}
+
+.banner .bannertext {
+	font-family: 'roboto slab'.serif;
+	
+	color: white;
+	padding-top: 210px;
+}
+.banner .headtext {
+	font-family: 'roboto slab'.serif;
+	
+	font-size: 46px
+}
+.banner .subtext {
+	font-family: 'roboto slab'.serif;
+	font-size: 16px;
+	color: #d0d0d0;
+	padding-bottom: 35px;
+	padding-top: 30px;
+}
+.top .menuphai a.nav-link.signupbtn {
+	width: 110px;
+	height: 40px;
+	border-color: white;
+	padding:12px;
+	margin-top: 18px;
+
+}
+.top .menuphai a.nav-link.signupbtn:hover {
+	border-color: #ec6952;
+	background: #ec6952;
+	color: white;
+}
+.velocitybtn {
+	    padding: 12px 25px;
+}
+@media (max-width:576px) {
+	a.logo {
+		width:200px;
+		top:-15px;
+		margin-left:90px;
+		text-align: center;
+	}
+	.menuphai {
+		background: #253340;
+		width:100%;
+		padding:15px;
+
+	}
+	.top .menuphai a.nav-link.signupbtn {
+		width :100%;
+
+	}
+	.top .menuphai a.nav-link {
+		padding :20px;
+		
+	}
+	
+
+}
+.nds1 .headtd {
+	font-family: 'roboto slab'.serif;
+	font-size: 40px;
+	font-weight: 300;
+	margin-top: 0;
+
+
+}
+.nds1 .subtd {
+	font-family: 'roboto slab'.serif;
+	font-size: 18px;
+	color: #999;
+	margin-bottom: 30px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+    background-color: #212e3d;
+    min-width: 180px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+
+}
+
+.dropdown-content a {
+    color: white;
+    padding: 10px 12px;
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+	font-weight: 400;
+	clear: both;
+	border-bottom: 1px solid #041638;
+	opacity: 0.8;
+}
+
+.dropdown-content a:hover {
+	background-color: #1159E5;
+	color: white;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
